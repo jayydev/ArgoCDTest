@@ -23,10 +23,10 @@ spec:
       containers:
       - image: jayjs/py-test-repo:go-helloworld-v1.0.0
         imagePullPolicy: IfNotPresent
-        name: python-helloworld
-        imagePullSecrets:
-        - name: regcred
+        name: python-helloworld      
         resources:
           requests:
             cpu: 50m
             memory: 256Mi
+      imagePullSecrets:
+      - name: regcred
