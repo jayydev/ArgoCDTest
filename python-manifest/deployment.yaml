@@ -24,8 +24,8 @@ spec:
       - image: jayjs/py-test-repo:go-helloworld-v1.0.0
         imagePullPolicy: IfNotPresent
         name: python-helloworld
-      imagePullSecrets:
-      - name: regcred
+        imagePullSecrets:
+        - name: regcred
         resources:
           requests:
             cpu: 50m
