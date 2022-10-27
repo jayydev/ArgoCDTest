@@ -1,12 +1,12 @@
 namespace:
   name: staging
 
-replicaCount: 1
-
 image:
  repository: ngnix
  tag: 1.18.0
  pullPolicy: IfNotPresent
+
+replicaCount: 1
 
 resources:
  requests:
