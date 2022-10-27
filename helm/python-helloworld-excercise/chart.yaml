@@ -1,0 +1,11 @@
+apiVersion:v1
+name: python-helloworld-exercise
+description: excercise for creating helm chart
+keywords:
+ -excercise
+ - python
+ - helloworld
+version: 1.0.0
+maintainers:
+ -name: jay
+ email: jay.singh.js@outlook.com
