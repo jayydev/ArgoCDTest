@@ -4,7 +4,7 @@ namespace:
 image:
  repository: ngnix
  tag: alpine
- imagePullPolicy: IfNotPresent
+ pullPolicy: IfNotPresent
 
 resources:
   requests:
