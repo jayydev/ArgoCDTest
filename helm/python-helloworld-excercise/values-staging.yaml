@@ -1,0 +1,7 @@
+namespcae:
+ name: staging
+
+replicaCount: 1
+
+image:
+ 
