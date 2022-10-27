@@ -2,9 +2,8 @@ apiVersion:v1
 name: nginx-deployment
 description: excercise for creating helm chart
 keywords:
- -excercise
+ - excercise
  - nginx 
 version: 1.0.0
 maintainers:
  -name: jay
- email: jay.singh.js@outlook.com
