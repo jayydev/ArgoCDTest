@@ -1,0 +1,20 @@
+namespcae:
+ name: prod
+ 
+replicaCount: 1
+
+image:
+ repository: nginx
+ tag: 1.17.0
+ 
+resources:
+ requests:
+  cpu: 70m
+  memory: 256 Mi
+  
+service:
+ port: 80
+ type: ClusterIP
+ 
+configmap:
+ data: "version: 1.17.0"
